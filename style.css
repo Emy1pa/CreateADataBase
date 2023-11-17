@@ -1,0 +1,107 @@
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&family=Kdam+Thmor+Pro&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gabarito";
+} 
+
+
+.logo{
+    width: 200px;
+}
+.tabclient{
+    padding: 10%;
+    /* margin-top: 50px; */
+}
+table {
+            border-collapse: collapse;
+            width: 100%;
+            padding: 80px;
+            justify-content: center;
+            align-items: center;
+            
+}
+ th, td {
+            border: 3px solid #000000;
+            text-align: center;
+            padding: 8px;
+            color: black;
+            font-size: 900;
+            background-color: #f0f0f0;
+ }
+ th {
+            background-color: rgb(145, 145, 145);
+
+ }
+
+ th a {
+    text-decoration: none;
+ }
+
+
+
+
+ header {
+    background-color: #015770;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    top: 0;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6em;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color:  white;
+    font-weight: 500;
+    padding-left: 30px;
+    text-transform: uppercase;
+
+}
+
+.navigation a:hover, .logo:hover{
+    color: #02212f;
+}
+
+
+
+section{
+    background-image: url("ss.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+.home{
+   height: 100vh;
+   display: flex;
+   background: rgba(0, 0, 0, 0.471);
+   justify-content: center;
+   align-items: center;
+}
+.home span{
+    color : white;
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+}
+footer{
+    background-color:  #015770;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    height : 50px;
+}
+ 
